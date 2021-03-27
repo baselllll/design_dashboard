@@ -1,0 +1,31 @@
+.blog{
+    padding-top: 30px;
+    background: none;
+    color: #000;
+}
+.blog h2{
+    color: #008c99;
+    background: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 5px;
+}
+.blog .card p{
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    line-height: 25px;
+}
+.blog .btn-rg , .about .btn-rg{
+    background-color: #008c99;
+    color: #f0f3f3;
+    border-color: #008c99;
+    padding: 6px 10px ;
+    margin-top: 10px;
+}
+.blog .card-img-top{
+    border: 3px solid #008c99;
+    margin-bottom: 0;
+}
+/* .blog .table-card{
+    position: fixed;
+} */

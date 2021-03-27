@@ -1,0 +1,78 @@
+.breadcrumb {
+    padding-left: 100px;
+    text-transform: uppercase;
+}
+.breadcrumb li a{
+    color: #008c99;
+    font-weight: 400;
+}
+/* ============================== */
+.contact{
+    padding: 20px 0;
+}
+.contact .contact-block{
+    background: url('../img/contact_form_bg.png');
+    padding: 5px;
+    border-radius: 8px;
+}
+.contact .contact-form{
+    background-color: #fff;
+    padding: 20px;
+}
+.contact .contact-form h2 { 
+    background: none;
+    padding: 15px;
+}
+.contact .input-group input , .blog .input-group input{
+    font-family: bubblegum sans,cursive;
+    border-radius: 15px;
+}
+.contact textarea , .blog textarea{
+    text-indent: 15px;
+    padding-top: 15px;
+    line-height: 25px;
+    border-radius: 15px;
+    outline: none;
+    font-family: bubblegum sans,cursive;
+}
+.contact input::placeholder , textarea::placeholder{
+    color: #008c99;
+    font-family: bubblegum sans,cursive;
+}
+.contact .btn-sd{
+    padding: 8px 30px;
+    font-family: bubblegum sans,cursive;
+
+}
+.contact .card h4 , .blog .card h4{
+    padding: 20px;
+    background-color: #008c99;
+    color: #fff;
+    font-family: bubblegum sans,cursive;
+}
+.contact .class-hr , .blog .class-hr{
+    width: 100%;
+    margin:0;
+    padding: 0;
+    background-color: #fff; 
+    
+}
+.contact .class-hr li , .blog .class-hr li{
+    width: 100%; 
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+    font-weight: 700;
+    float: none;
+    position: relative;
+    font-family: lato,sans-serif;
+}
+.contact .class-hr li span , .blog .class-hr li span{
+    float: right;
+    font-style: italic;
+    font-weight: 400;
+    color: #cf571b;
+}
+/* ============================== */

@@ -1,0 +1,81 @@
+.faq{
+    background: url('../img/product_bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.faq h2{
+    margin-bottom: 40px;
+}
+.faq .cl1 , .faq .cl2{
+ margin-bottom: 50px;
+    
+}
+.faq  .card-header{
+    background-color: #f0f3f3;
+    border: none;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.faq h5{
+    text-transform: uppercase;
+    color: #008c99;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-family: bubblegum sans,cursive;
+}
+.faq .cl1 h5::before{
+    content: "\f077";
+    top: -6px;
+    left: 0px;
+    font-family: FontAwesome;
+    position: relative;
+    font-weight: normal;
+    font-size: 14px;
+}
+.faq .cl1 h5::after{
+    
+    content: "\f078";
+    top: 23px;
+    left: 14px;
+    font-family: FontAwesome;
+    display: inline-block;
+    float: left;
+    position: relative;
+    font-size: 14px;
+
+}
+.faq .cl2 h5{
+    color: #000;
+
+}
+.faq .cl2 h5:hover{
+    color: #008c99;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.faq .cl2 h5::before{
+    content: "?";
+    background: #333334;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: 3px solid #cdd0d0;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    position: relative;
+    top: 33%;
+    left: 0px;
+    z-index: 1;
+}
+.questitionform{
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.questitionform textarea{
+    padding: 10px;
+}

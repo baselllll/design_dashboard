@@ -1,0 +1,82 @@
+.register{
+  padding: 20px;
+}
+.register .form-group{
+    width: 50%;
+    float: left;
+}
+.register .card{
+    border: none;
+     
+}
+.register h2{
+    margin-top: 15px;
+}
+.register label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-bottom: 2px;
+    text-indent: 5px;
+    display: block;
+    font-family: bubblegum sans,cursive;
+}
+input, select {
+    display: block;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 11px 20px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    font-family: bubblegum sans,cursive;
+    padding: 10px;
+}
+.register input[type="date"]{
+    padding: 9px;
+    font-size: 13px;
+}
+.register select{
+    padding: 10px;
+    font-size: 15px;
+}
+.register .submit{
+    width: 50%;
+    float: left;
+}
+.register fieldset{
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: #008c99;
+    border-image: initial;
+    background-color: rgb(233, 233, 233);    
+}
+.register legend {
+    font-family: bubblegum sans,cursive;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    padding: 0;
+    width: auto;
+    white-space: normal;
+    padding-left: 17px;
+    padding-right: 20px
+}
+.register .img-sign{
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    height: 50%;
+}
+.register .breadcrumb{
+    margin-bottom: 0;
+}

@@ -1,0 +1,119 @@
+.carousel-control-next-icon , .carousel-control-prev-icon{
+    background-color: #000;
+    padding: 11px;
+    border-radius: 50%;
+}
+.about .img-fluid{
+    height: 180px;
+    width: 100%;
+}
+.about h2{
+    background-repeat: repeat-x;
+    color: #000;
+    margin-bottom: 30px;
+}
+.about .btn-rg{
+    margin-bottom: 30px;
+}
+.about .img-post{
+    height: 100px;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.about h6 a , .about span a , .students-count{
+    color: #000;
+    font-weight: bold;
+    font-family: bubblegum sans,cursive;
+    display: block;
+}
+.about h6 a:hover , .about span a:hover , .students-count:hover{
+    color: #008c99;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.students-count{
+    color: #008c99;
+    font-weight: normal;
+}
+.about .rating-review .fa{
+   
+    color: gold;
+}
+.about .rating-review .fa:nth-child(5){
+    color: #000
+}
+.about .rating-review a{
+    color: #008c99;
+}
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #008c99;
+  border-radius: 50%;
+  
+  width: 15px;
+  height: 15px;;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url('../img/service2.jpg')
+}
+.sponsor{padding-bottom: 50px}
+
+.sponsor .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -45px;
+
+}
+
+/* The colour of the indicators */
+.sponsor .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: none;
+}
+
+.sponsor .carousel-indicators .active {
+background: #707070;
+}
+.sponsor .carousel-item a img{
+    height: 125px;;
+}
